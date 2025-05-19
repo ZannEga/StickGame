@@ -7,8 +7,8 @@ public class StickGame {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
 
-        // Random jumlah stick antara 21 dan 30
-        int sticks = rand.nextInt(10) + 21;
+        // Random jumlah stick antara 10 dan 30
+        int sticks = rand.nextInt(21) + 10;
         System.out.println("Total sticks: " + sticks);
 
         // Tentukan giliran awal dengan coin flip
